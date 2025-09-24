@@ -4,6 +4,7 @@ using namespace std;
 // Problem 1
 // int main() {
 //     int num,pos=0,neg=0, count=0, sum=0;
+// 
 //    cout << "Enter a number :(0 is to stop): ";
 //     cin >> num;
 //     while(num!=0) {
@@ -19,10 +20,11 @@ using namespace std;
 //         }
 //
 //     }
+//     double av = sum/count;
 //     cout<<"the number of positive is :"<<pos<<endl;
 //     cout<<"the number of negative is :"<<neg<<endl;
 //     cout<<"the total is :"<<sum<<endl;
-//     cout<<"the average is : "<<sum/count<<endl;
+//     cout<<"the average is : "<<av<<endl;
 // }
 
 // Problem12
