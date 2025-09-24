@@ -157,7 +157,32 @@ using namespace std;
 // }
 
 //Problem22
+// int main() {
+//     int i =1;
+//     while (i<=10) {
+//         double kil = i*1.609;
+//         cout <<"Miles: "<<i<<endl;
+//         cout <<"Kilo: "<<kil<<endl;
+//         if (i==2)cout<<endl;
+//         i++;
+//         }
+//     }
+//Problem24
 int main() {
-    int ron=sran()+rand()%100;
-
+    srand(time(0));
+    int count =0;
+    int even =0;
+    int odd =0;
+    while (count<100000) {
+        int number = rand() % 100;
+        if (number % 2 == 0) {
+            even++;
+        }
+        else {
+            odd++;
+        }
+        count++;
+    }
+    cout <<"Total odd number: "<<odd<<endl;
+    cout <<"Total even number: "<<even<<endl;
 }
