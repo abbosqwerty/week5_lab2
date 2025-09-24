@@ -3,13 +3,12 @@
 using namespace std;
 // Problem 1
 // int main() {
-//     int num,pos=0,neg=0, count=0, sum=0;
-// 
+//     int num,pos=0,neg=0;
+//      double sum=0, count=0; 
 //    cout << "Enter a number :(0 is to stop): ";
 //     cin >> num;
 //     while(num!=0) {
 //         count++;
-//         sum+=num;
 //         cin>>num;
 //         if(num>0) {
 //             pos++;
@@ -23,7 +22,7 @@ using namespace std;
 //     double av = sum/count;
 //     cout<<"the number of positive is :"<<pos<<endl;
 //     cout<<"the number of negative is :"<<neg<<endl;
-//     cout<<"the total is :"<<sum<<endl;
+//     cout<<"the total is :"<<count<<endl;
 //     cout<<"the average is : "<<av<<endl;
 // }
 
