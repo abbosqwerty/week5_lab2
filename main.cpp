@@ -22,6 +22,7 @@ using namespace std;
 //     cout<<"the number of positive is :"<<pos<<endl;
 //     cout<<"the number of negative is :"<<neg<<endl;
 //     cout<<"the total is :"<<sum<<endl;
+//     cout<<"the average is : "<<sum/count<<endl;
 // }
 
 // Problem12
