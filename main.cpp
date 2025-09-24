@@ -92,16 +92,16 @@ using namespace std;
 //
 // }
 //Problem 16
-// int main() {
-//     double  rent=1000, sum=0;
-//     for (int i = 1; i <= 5; i++) {
-//        if (i>1) rent *= 1.03;
-//         sum = sum + rent;
-//         cout<<"for year number "<<i <<" rent is "<<rent<<endl;
-//         cout<<"for total "<<i <<"years rent is "<<sum<<endl;
-//
-//     }
-// }
+    // int main() {
+    //     double  rent=1000*12, sum=0;
+    //     for (int i = 1; i <= 5; i++) {
+    //        if (i>1) rent *= 1.03;
+    //         sum = sum + rent;
+    //         cout<<"for year number "<<i <<" rent is "<<rent<<endl;
+    //         cout<<"for total "<<i <<"years rent is "<<sum<<endl;
+    //
+    //     }
+    // }
 // Problem 17
 // int main() {
 //     int x;
